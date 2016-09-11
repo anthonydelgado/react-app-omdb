@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 var Navbar = require('./Navbar');
 var Footer = require('./Footer');
+var Movies = require('./Movies');
+// Search
+var Search = require('./Search');
 
 class App extends Component {
   render() {
@@ -10,12 +13,8 @@ class App extends Component {
       <div className="App">
           <Navbar />
 
-          <div className="container">
-              <div className="searchtron">
-                  <h1>Watch what matters</h1>
-                  <p><input type="text" id="movie-input" placeholder="Search for movies"/></p>
-              </div>
-          </div>
+          <Movies search={this.movieSearchTerm} />
+
           <Footer />
       </div>
     );

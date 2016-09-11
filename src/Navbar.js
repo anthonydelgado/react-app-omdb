@@ -10,10 +10,7 @@ var Navbar = React.createClass({
         return (
             <nav>
                 <div className="nav-wrapper">
-                    <a href="#" className="brand-logo">MovieFone</a>
-                    <ul id="nav-mobile" className="right hide-on-med-and-down">
-                        <li><a href="sass.html">GitHub</a></li>
-                    </ul>
+                    <a href="#" className="brand-logo">Movie Clone</a>
                 </div>
             </nav>
         );
