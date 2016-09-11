@@ -10,7 +10,7 @@ var Navbar = React.createClass({
         return (
             <nav>
                 <div className="nav-wrapper">
-                    <a href="#" className="brand-logo">Movie Clone</a>
+                    <a href="#" className="brand-logo center">React Movie App</a>
                 </div>
             </nav>
         );

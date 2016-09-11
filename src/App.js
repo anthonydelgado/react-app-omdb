@@ -15,7 +15,6 @@ class App extends Component {
 
           <Movies search={this.movieSearchTerm} />
 
-          <Footer />
       </div>
     );
   }

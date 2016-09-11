@@ -1,13 +1,20 @@
 body {
   background: url('../dist/images/hollywood.jpg') no-repeat;
   background-size: cover;
+  min-height: 100vh;
 }
 body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
 }
-
+nav {
+  color: #ffc107;
+  background-color: #424242;
+}
+nav .brand-logo {
+  color: #ffc107;
+}
 main {
   flex: 1 0 auto;
 }

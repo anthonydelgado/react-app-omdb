@@ -11,7 +11,7 @@ var Search = React.createClass({
                 <div className="container">
                     <div className="searchtron">
                         <h3>what do you want to watch {this.add}?</h3>
-                        <p><input type="text" id="movie-input" placeholder="Search for movies" onKeyDown={this.handleChange} /></p>
+                        <p><input type="text" id="movie-input" placeholder="Search for movies" onKeyUp={this.handleChange} /></p>
                     </div>
                 </div>
 
