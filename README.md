@@ -1,6 +1,6 @@
 # react movie app
 
-This is a single page application written in React that intergrates with the open movie database rest api. 
+This is a single page application written in React that integrates with the open movie database rest api. 
 
 ## App Preview
 
